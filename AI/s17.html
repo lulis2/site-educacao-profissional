@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="conteudo-artigo">
+    <h1>Binary Cross-Entropy Loss</h1>
+    <p>O Binary Cross-Entropy Loss, também conhecido como log loss ou log loss binário, é uma função de perda amplamente utilizada em problemas de classificação binária. Ele mede a diferença entre a probabilidade prevista pelo modelo e a probabilidade real do evento ocorrer.
+
+        Em outras palavras, ele calcula o quão "errado" o modelo está ao prever a probabilidade de um evento acontecer. Quanto maior o valor do Binary Cross-Entropy Loss, maior o erro do modelo.
+        
+        Essa função de perda é frequentemente usada em modelos de aprendizado de máquina que usam regressão logística para classificar dados em duas categorias.</p>
+
+    <h2>Parâmetros e hiperparâmetros</h2>
+    <p>Parâmetros e hiperparâmetros são conceitos importantes no aprendizado de máquina.
+
+        Parâmetros são valores que o modelo aprende durante o processo de treinamento. Eles são ajustados automaticamente pelo algoritmo para minimizar a função de perda e melhorar a precisão do modelo.
+        Hiperparâmetros, por outro lado, são valores que você define antes do treinamento. Eles controlam o processo de aprendizado e influenciam a estrutura e o comportamento do modelo.
+        Pense em um modelo de aprendizado de máquina como um aluno aprendendo um novo idioma. Os parâmetros seriam as palavras que o aluno aprende e usa para se comunicar, enquanto os hiperparâmetros seriam as estratégias de estudo que o aluno utiliza para aprender o idioma, como a quantidade de tempo que dedica ao estudo, o tipo de material que usa e a frequência com que pratica.</p>
+
+    <h2>Busca em Grade (Grid Search) </h2>
+    <p>A Busca em Grade (Grid Search) é um método simples e direto para encontrar os melhores hiperparâmetros para um modelo de aprendizado de máquina.
+
+        Nesse método, você define um intervalo de valores para cada hiperparâmetro que deseja otimizar. O algoritmo então testa todas as combinações possíveis de valores dentro desse intervalo, treinando o modelo com cada combinação e avaliando seu desempenho. A combinação de hiperparâmetros que resulta no melhor desempenho é então escolhida como a melhor configuração para o modelo.
+        
+        Por exemplo, se você está ajustando um modelo de regressão logística, você pode definir um intervalo de valores para os hiperparâmetros regularização e taxa de aprendizado. O Grid Search testaria todas as combinações possíveis de valores dentro desses intervalos, treinando o modelo com cada combinação e avaliando seu desempenho usando uma métrica como a precisão. A combinação de hiperparâmetros que resulta na maior precisão seria então escolhida como a melhor configuração para o modelo.
+        
+        A Busca em Grade é um método simples e eficaz para encontrar os melhores hiperparâmetros, mas pode ser computacionalmente caro, especialmente se você tiver muitos hiperparâmetros para otimizar ou se os intervalos de valores forem grandes.</p>
+
+    <h2> Avaliação e Métricas de Avaliação para IA Generativa</h2>
+    <p>A avaliação de IA Generativa é um tópico importante e complexo. Existem diversas métricas e métodos para avaliar o desempenho de modelos de IA Generativa, e a escolha da métrica mais adequada depende do objetivo específico da aplicação.
+
+        De acordo com as informações que tenho acesso, algumas das métricas e métodos de avaliação para IA Generativa incluem:
+        
+        Métricas baseadas em computação: Essas métricas podem ser usadas para avaliar o desempenho de modelos de IA Generativa por meio de um SDK do Python.
+        Avaliação assistida por IA: Essa abordagem fornece uma maneira flexível e matizada de avaliar aplicativos de IA Generativa, especialmente em tarefas que exigem julgamento humano.
+        Métricas de avaliação atuais: Existem diversas métricas de avaliação atuais disponíveis para avaliar o desempenho de modelos de IA Generativa, como "por pontos vs. em pares".
+        É importante lembrar que a escolha da métrica de avaliação mais adequada depende do objetivo específico da aplicação.</p>
+
+    <h2> BLEU e ROUGE</h2>
+    <p>BLEU e ROUGE são métricas usadas para avaliar o desempenho de modelos de linguagem, especialmente na tarefa de tradução automática.
+
+        BLEU (Bilingual Evaluation Understudy) mede a qualidade da tradução comparando a tradução gerada pelo modelo com uma ou mais traduções de referência. A pontuação BLEU é calculada com base na frequência de n-gramas (sequências de n palavras) que aparecem na tradução gerada e nas traduções de referência. Quanto maior a pontuação BLEU, melhor a qualidade da tradução.
+        
+        ROUGE (Recall-Oriented Understudy for Gisting Evaluation) também avalia a qualidade da tradução, mas se concentra na capacidade do modelo de gerar resumos precisos e concisos do texto original. A pontuação ROUGE é calculada com base na sobreposição de n-gramas entre a tradução gerada e as traduções de referência. Quanto maior a pontuação ROUGE, melhor a capacidade do modelo de gerar resumos precisos.
+        
+        Em resumo, BLEU e ROUGE são métricas importantes para avaliar a qualidade de traduções geradas por modelos de linguagem.</p>
+
+</div>
+
+
+<a href="../index.html">voltar a página inicial</a>
+</body>
+</html>
