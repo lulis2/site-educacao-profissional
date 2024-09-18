@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="conteudo-artigo">
+    <h1>Criptografia</h1>
+    
+    <p>A criptografia é um método que converte textos em códigos abstratos conhecidos como ciphertexts ou textos cifrados. Ela é usada para proteger os dados contra roubo, alteração ou comprometimento. A criptografia funciona transformando os 
+        dados em um código secreto que só pode ser decifrado por pessoas que possuem a chave correta.</p>
+
+    <h2>O protocolo TCP/IP</h2>
+    <p>O TCP/IP é um conjunto de protocolos que possibilita a comunicação entre computadores e servidores, formando a internet. Ele combina o Protocolo de Controle de Transmissão (TCP) e o Protocolo de Internet (IP). O TCP/IP define cuidadosamente como as informações se movimentam de remetente para receptor. Primeiro, os programas de aplicativos enviam mensagens ou fluxos de dados para o TCP. O TCP divide esses dados em pequenos pacotes e os envia para o IP. O IP então adiciona informações de endereço e roteamento a cada pacote e os envia pela rede. Os pacotes chegam ao seu destino, onde o IP os entrega ao TCP.
+         O TCP então reassemble os pacotes na ordem correta e os entrega ao programa de aplicativo.</p>
+
+    <p></p>
+
+    <h2>Message Queuing (Filas de Mensagens)</h2>
+    <p>Filas de mensagens são uma forma de comunicação assíncrona entre serviços, usadas em arquiteturas sem servidor e de microsserviços. Elas permitem que diferentes partes de um sistema se comuniquem sem depender de uma conexão direta, o que torna o sistema mais flexível e escalável.
+
+        As filas de mensagens são como caixas de correio: um serviço pode enviar uma mensagem para a fila e outro serviço pode retirá-la mais tarde. Isso permite que os serviços trabalhem de forma independente, sem precisar esperar um pelo outro.
+        
+        Existem vários serviços de filas de mensagens disponíveis, como o AWS SQS, o Azure Service Bus e o Google Cloud Pub/Sub. Cada serviço tem suas próprias características e funcionalidades, mas todos eles oferecem uma forma de comunicação assíncrona entre serviços.</p>
+
+    <h2>RabbitMQ e Apache Kafka</h2>
+    <p>O RabbitMQ e o Apache Kafka são ferramentas populares para comunicação assíncrona entre serviços, mas com diferentes características e aplicações.
+
+        O RabbitMQ é um agente de mensagens de uso geral que utiliza o padrão AMQP (Advanced Message Queuing Protocol). Ele é conhecido por sua flexibilidade e facilidade de uso, sendo ideal para aplicações que exigem confiabilidade e controle preciso sobre a entrega de mensagens.
+        
+        O Apache Kafka é uma plataforma de streaming distribuída de código aberto que pode ser usada como um agente de mensagens. Ele é projetado para lidar com grandes volumes de dados em tempo real, sendo ideal para aplicações como processamento de eventos, análise de dados e sistemas de streaming.
+        
+        Em resumo, o RabbitMQ é uma boa escolha para aplicações que exigem confiabilidade e controle preciso sobre a entrega de mensagens, enquanto o Apache Kafka é ideal para aplicações que exigem alta performance e escalabilidade para lidar com grandes volumes de dados em tempo real.</p>
+
+    <p></p>
+
+    <h2>Throughput</h2>
+    <p>O throughput do RabbitMQ e Apache Kafka é um fator importante a considerar ao escolher um sistema de filas de mensagens. De acordo com as informações que tenho, o Kafka geralmente tem um throughput maior do que o RabbitMQ, tornando-o mais adequado para lidar com grandes volumes de dados.
+
+        O Kafka é mais escalável do que o RabbitMQ, o que significa que ele pode lidar com um volume maior de mensagens à medida que o sistema cresce. Em teoria, o RabbitMQ também pode lidar com milhões de mensagens por segundo, mas requer mais brokers do que o Kafka para atingir esse alto throughput.
+        
+        Em um benchmark realizado pela Confluent, o Kafka apresentou o melhor throughput e as menores latências de ponta a ponta até o percentil 99,9.</p>
+
+    <p></p>
+</div>
+
+
+<a href="../index.html">voltar a página inicial</a>
+</body>
+</html>
